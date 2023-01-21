@@ -2,6 +2,29 @@
 	box-sizing: border-box;
 }
 
+.centered-absolute {
+   position: absolute;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+ }
+
+ .black {
+   background: #000000;
+ }
+
+ .brown {
+   background: #7d4900;
+ }
+
+ .orange {
+   background: #e88b00;
+ }
+
+ .red {
+   background: #ff1e00;
+ }
+
 body {
 	margin: 0;
 	height: 999px;
@@ -193,12 +216,7 @@ img {
  }
 
  .flame {
-   position: absolute;
-   background: #ff1e00;
    top: 340px;
-   left: 0;
-   right: 0;
-   margin: 0 auto;
    width: 40px; 
    height: 50px;
    border-radius: 10px 40px 0 0;
@@ -213,6 +231,16 @@ img {
    top: 350px;
    left: 270px;
  }
+
+ .top {
+   width: 0; 
+   height: 0; 
+   border-left: 90px solid transparent;
+   border-right: 90px solid transparent;
+   border-bottom: 60px solid black;
+   top: 170px;
+ }
+
 
 /*
   Black: #000000
