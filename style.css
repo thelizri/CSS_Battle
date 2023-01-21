@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	height: 999px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(220,220,220, 0.5);
+}
+
+.container {
+	background: white;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 600px;
+	height: 600px;
+}
+
+img {
+	height: 600px;
+	width: 600px;
+}
+
+.triangle-up { 
+   width: 0; 
+   height: 0; 
+   border-left: 60px solid transparent;
+   border-right: 60px solid transparent;
+   border-bottom: 60px solid black;
+ }
+
+ .triangle-down { 
+   width: 0; 
+   height: 0; 
+   border-left: 16px solid transparent;
+   border-right: 16px solid transparent;
+   border-top: 12px solid black;
+ }
+
+ .triangle-left { 
+   width: 0; 
+   height: 0; 
+   border-top: 60px solid transparent;
+   border-bottom: 60px solid transparent; 
+   border-right: 60px solid black; 
+ }
+
+ .triangle-right { 
+   width: 0; 
+   height: 0; 
+   border-top: 60px solid transparent;
+   border-bottom: 60px solid transparent;
+   border-left: 60px solid black;
+ }
+
+ .center-bottom {
+ 	align-self: end;
+ 	margin-bottom: 9px;
+ }
+
+ .pole {
+ 	position: absolute;
+ 	top: 469px;
+ 	left: 300px -0.5*width;
+ 	background: black;
+ 	width: 32px;
+ 	height: 110px;
+ }
+ .s-pole {
+ 	position: absolute;
+ 	top: 420px;
+ 	left: 300px -0.5*width;
+ 	background: black;
+ 	width: 10px;
+ 	height: 100px;
+ }
+ .lantern-black-triangle {
+ 	position: absolute;
+ 	top: 400px;
+ 	left: 300px -32px;
+ 	width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 24px solid black;
+ }
+
+ .lantern-body {
+ 	position: absolute;
+ 	background: black;
+ 	top: 230px;
+ 	left: 300px -0.5*width;
+ 	width: 100px; 
+    height: 170px; 
+ }
+
+ .lantern-body-left {
+ 	position: absolute;
+ 	top: 230px;
+ 	left: 201px;
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 170px solid black;
+ }
+
+  .lantern-body-right {
+ 	position: absolute;
+ 	top: 230px;
+ 	left: 350px;
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 170px solid black;
+ }
+
+ .lantern-body-brown {
+ 	position: absolute;
+ 	background: #7d4900;
+ 	top: 240px;
+ 	left: 310px -0.5*width;
+ 	width: 80px; 
+    height: 150px; 
+ }
+
+ .lantern-body-brown-left {
+ 	position: absolute;
+ 	top: 240px;
+ 	left: 216px;
+    width: 0; 
+    height: 0; 
+    border-left: 44px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 150px solid #7d4900;
+ }
+
+ .lantern-body-brown-right {
+ 	position: absolute;
+ 	top: 240px;
+ 	left: 340px;
+    width: 0; 
+    height: 0; 
+    border-left: 0px solid transparent;
+    border-right: 44px solid transparent;
+    border-top: 150px solid #7d4900;
+ }
+
+/*
+  Black: #000000
+  Brown: #7d4900
+  Orange:#e88b00
+  Red:   #ff1e00
+*/
