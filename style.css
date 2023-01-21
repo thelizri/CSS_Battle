@@ -379,7 +379,6 @@ img {
    height: 50px;
    top: 405px;
    left: 244px;
-   background: black;
    transform: rotate(-78deg);
    border-radius: 10px 0 0 0;
  }
@@ -390,7 +389,6 @@ img {
    height: 50px;
    top: 405px;
    left: 343px;
-   background: black;
    transform: rotate(78deg);
    border-radius: 0 10px 0 0;
  }
@@ -401,7 +399,6 @@ img {
    height: 30px;
    top: 395px;
    left: 366px;
-   background: black;
    transform: rotate(12deg);
    border-radius: 0 10px 0 0;
  }
@@ -412,9 +409,28 @@ img {
    height: 30px;
    top: 395px;
    left: 224px;
-   background: black;
    transform: rotate(-12deg);
    border-radius: 10px 0 0 0;
+ }
+
+ .sp-7 {
+   position: absolute;
+   width: 12px;
+   height: 25px;
+   top: 384px;
+   left: 235px;
+   transform: rotate(70deg);
+   border-radius: 10px 0 0 0;
+ }
+
+ .sp-8 {
+   position: absolute;
+   width: 12px;
+   height: 25px;
+   top: 384px;
+   left: 353px;
+   transform: rotate(-70deg);
+   border-radius: 0 10px 0 0;
  }
 
 
