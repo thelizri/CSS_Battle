@@ -356,6 +356,23 @@ img {
    border-radius: 0 0 5px 5px;
  }
 
+ .support {
+   position: absolute;
+   width: 14px;
+   height: 25px;
+   top: 430px;
+ }
+
+ .sp-1 {
+   left: 312px;
+   transform: rotate(50deg);
+ }
+
+ .sp-2 {
+   left: 275px;
+   transform: rotate(-50deg);
+ }
+
 
 
 /*
