@@ -433,6 +433,28 @@ img {
    border-radius: 0 10px 0 0;
  }
 
+ .tri-down-in {
+   position: absolute;
+   top: 276px;
+   left: 272px;
+   width: 0; 
+   height: 0; 
+   border-left: 50px solid transparent;
+   border-right: 25px solid transparent;
+   border-top: 30px solid #7d4900;
+ }
+
+ .flame-right {
+   width: 0; 
+   height: 0; 
+   border-left: 0px solid transparent;
+   border-right: 15px solid transparent;
+   border-bottom: 40px solid #ff1e00;
+   position: absolute;
+   top: 350px;
+   left: 320px;
+ }
+
 
 /*
   Black: #000000
