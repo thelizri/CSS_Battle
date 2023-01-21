@@ -204,6 +204,16 @@ img {
    border-radius: 10px 40px 0 0;
  }
 
+ .circle-orange {
+   position: absolute;
+   background: #e88b00;
+   width:30px;
+   height: 37px;
+   border-radius: 50%;
+   top: 350px;
+   left: 270px;
+ }
+
 /*
   Black: #000000
   Brown: #7d4900
