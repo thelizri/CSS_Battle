@@ -455,6 +455,30 @@ img {
    left: 320px;
  }
 
+ .sm-triangle-detail {
+   position: absolute;
+   top: 217px;
+   left: 197px;
+   width: 0; 
+   height: 0; 
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 18px solid black;
+   transform: rotate(-35deg);
+ }
+
+ .sm-triangle-detail-r {
+   position: absolute;
+   top: 217px;
+   left: 393px;
+   width: 0; 
+   height: 0; 
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   border-bottom: 18px solid black;
+   transform: rotate(35deg);
+ }
+
 
 /*
   Black: #000000
