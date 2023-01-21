@@ -479,6 +479,39 @@ img {
    transform: rotate(35deg);
  }
 
+ .sm-triangle-detail-top { 
+   position: absolute;
+   top: 169px;
+   left: 270px;
+   width: 0; 
+   height: 0; 
+   border-left: 19px solid transparent;
+   border-right: 0 solid transparent;
+   border-top: 4px solid black;
+ }
+
+  .sm-triangle-detail-top-r { 
+   position: absolute;
+   top: 169px;
+   left: 313px;
+   width: 0; 
+   height: 0; 
+   border-left: 0 solid transparent;
+   border-right: 19px solid transparent;
+   border-top: 4px solid black;
+ }
+
+ .sm-triangle-detail-top-r-r { 
+   position: absolute;
+   top: 76px;
+   left: 301px;
+   width: 0; 
+   height: 0; 
+   border-left: 0 solid transparent;
+   border-right: 10px solid transparent;
+   border-bottom: 35px solid black;
+ }
+
 
 /*
   Black: #000000
