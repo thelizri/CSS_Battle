@@ -291,6 +291,13 @@ img {
    top: 140px;
  }
 
+ .box-1-top {
+   width: 70px;
+   border-radius: 1px 1px 5px 5px;
+   height:4px;
+   top: 185px;
+ }
+
 
 
 /*
