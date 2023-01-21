@@ -126,7 +126,7 @@ img {
  	top: 240px;
  	left: 310px -0.5*width;
  	width: 80px; 
-    height: 150px; 
+   height: 150px; 
  }
 
  .lantern-body-brown-left {
@@ -149,6 +149,48 @@ img {
     border-left: 0px solid transparent;
     border-right: 44px solid transparent;
     border-top: 150px solid #7d4900;
+ }
+
+ .lantern-body-orange {
+   position: absolute;
+   background: #e88b00;
+   top: 290px;
+   left: 310px -0.5*width;
+   width: 80px; 
+   height: 100px;
+ }
+
+ .lantern-body-orange-left {
+   position: absolute;
+   top: 290px;
+   left: 230px;
+   width: 0; 
+   height: 0; 
+   border-left: 30px solid transparent;
+   border-right: 0px solid transparent;
+   border-top: 100px solid #e88b00;
+ }
+
+ .lantern-body-orange-right {
+   position: absolute;
+   top: 290px;
+   left: 340px;
+   width: 0; 
+   height: 0; 
+   border-left: 0px solid transparent;
+   border-right: 30px solid transparent;
+   border-top: 100px solid #e88b00;
+ }
+
+ .flame {
+   position: absolute;
+   background: #ff1e00;
+   top: 340px;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   width: 40px; 
+   height: 50px;
  }
 
 /*
