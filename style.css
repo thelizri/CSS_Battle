@@ -154,32 +154,42 @@ img {
  .lantern-body-orange {
    position: absolute;
    background: #e88b00;
-   top: 290px;
+   top: 310px;
    left: 310px -0.5*width;
    width: 80px; 
-   height: 100px;
+   height: 80px;
  }
 
  .lantern-body-orange-left {
    position: absolute;
-   top: 290px;
-   left: 230px;
+   top: 310px;
+   left: 236px;
    width: 0; 
    height: 0; 
-   border-left: 30px solid transparent;
+   border-left: 24px solid transparent;
    border-right: 0px solid transparent;
-   border-top: 100px solid #e88b00;
+   border-top: 80px solid #e88b00;
  }
 
  .lantern-body-orange-right {
    position: absolute;
-   top: 290px;
+   top: 310px;
    left: 340px;
    width: 0; 
    height: 0; 
    border-left: 0px solid transparent;
-   border-right: 30px solid transparent;
-   border-top: 100px solid #e88b00;
+   border-right: 24px solid transparent;
+   border-top: 80px solid #e88b00;
+ }
+
+ .oval-orange {
+    position: absolute;
+    background: #e88b00;
+    top: 278px;
+    left: 237px;
+    width: 126px;
+    height: 64px;
+    border-radius: 64px / 32px;
  }
 
  .flame {
@@ -191,6 +201,7 @@ img {
    margin: 0 auto;
    width: 40px; 
    height: 50px;
+   border-radius: 10px 40px 0 0;
  }
 
 /*
