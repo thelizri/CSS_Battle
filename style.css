@@ -259,6 +259,22 @@ img {
    top: 515px;
  }
 
+ .box-mid-pole {
+   width: 45px;
+   height: 10px;
+   top: 468px;
+   border-radius: 30px;
+ }
+
+ .lantern-detail {
+   position: absolute;
+   top: 230px;
+   left: 315px;
+   width: 12px;
+   height: 166px;
+   transform: rotate(4deg);
+ }
+
 
 
 /*
