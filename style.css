@@ -373,6 +373,27 @@ img {
    transform: rotate(-50deg);
  }
 
+ .sp-3 {
+   position: absolute;
+   width: 14px;
+   height: 50px;
+   top: 405px;
+   left: 244px;
+   background: black;
+   transform: rotate(-78deg);
+   border-radius: 10px 0 0 0;
+ }
+
+ .sp-4 {
+   position: absolute;
+   width: 14px;
+   height: 50px;
+   top: 405px;
+   left: 343px;
+   background: black;
+   transform: rotate(78deg);
+   border-radius: 0 10px 0 0;
+ }
 
 
 /*
