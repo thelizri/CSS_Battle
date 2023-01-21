@@ -241,6 +241,25 @@ img {
    top: 170px;
  }
 
+ .trapezoid {
+   border-bottom: 20px solid black;
+   border-left: 32px solid transparent;
+   border-right: 32px solid transparent;
+   height: 0;
+   width: 50px;
+   top: 495px;
+ }
+
+ .bottom-trap {
+   border-top: 14px solid black;
+   border-left: 5px solid transparent;
+   border-right: 5px solid transparent;
+   height: 0;
+   width: 65px;
+   top: 515px;
+ }
+
+
 
 /*
   Black: #000000
