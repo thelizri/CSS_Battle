@@ -87,11 +87,11 @@ img {
 
  .pole {
  	position: absolute;
- 	top: 469px;
+ 	top: 463px;
  	left: 300px -0.5*width;
  	background: black;
  	width: 32px;
- 	height: 110px;
+ 	height: 116px;
  }
  .s-pole {
  	position: absolute;
@@ -347,6 +347,13 @@ img {
    border-bottom: 5px solid #ff1e00;
    top: 383px;
    left: 280px;
+ }
+
+ .box-pole-bottom-base {
+   width: 44px;
+   height: 21px;
+   top: 444px;
+   border-radius: 0 0 5px 5px;
  }
 
 
